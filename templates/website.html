@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My page</title>
+  <link href="{{ url_for('static', filename= 'css/style.css') }}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <h1 class="title">Welcome to My page!</h1>
+    <p class="description">My name is Siyovush Khasanov N4156C  
+        I am currently a student at the ITMO University.
+        I studied my bachelor's degree at ITMO in the information security field.
+        I don't like talking about myself so here is the image of the cool capybara
+    </p>
+    <img src="{{ url_for('static', filename= 'images/capy.png') }}" alt="cool capybara pic" />
+  </main>
+
+
+</body>
+
+</html>
